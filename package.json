@@ -1,0 +1,25 @@
+{
+  "name": "equals-with-latitude",
+  "version": "1.0.0",
+  "description": "Compare lat/lon for equality with the latitude for a small difference in values.",
+  "main": "./index.js",
+  "dependencies": {
+    "ngeohash": "^0.6.0"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ryanramage/equals-with-latitude.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ryanramage/equals-with-latitude/issues"
+  },
+  "homepage": "http://github.com/ryanramage/equals-with-latitude"
+}
